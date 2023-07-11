@@ -1,0 +1,26 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+#map-container {
+  position: absolute;
+  top: 5%;
+  bottom: 0;
+  width: 100%;
+}
+
+.locate {
+  top: 6em;
+  left: .5em;
+}
+
+label {
+  font-family: sans-serif;
+}
+
+#speed {
+  margin-top: 1em;
+}
